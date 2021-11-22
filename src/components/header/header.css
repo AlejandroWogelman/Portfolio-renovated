@@ -1,0 +1,67 @@
+.header {
+  height: 100vh;
+  background-color: rgb(62, 182, 187);
+  position: relative;
+  color: aliceblue;
+}
+
+ul {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+ul li {
+  margin: 10px 2rem;
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  color: aliceblue;
+  padding: 10px;
+  transition: 0.5s;
+}
+ul li a:hover {
+  background-color: rgb(33, 142, 146);
+}
+.header-content {
+  display: flex;
+  height: 90%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.first-box {
+  height: 160px;
+  width: 100%;
+  background-color: azure;
+  width: min-content;
+  border: dotted rgba(0, 0, 0, 0.472) 5px;
+  display: flex;
+  margin-right: 5%;
+  transform: translateY(-20%);
+}
+.two-box {
+  padding: 20px 30px;
+  transform: translateY(-20%) translateX(20%);
+  border: 5px rgb(99, 192, 197) solid;
+  background-color: rgb(62, 182, 187);
+  box-shadow: rgba(0, 0, 0, 0.164) -8px 8px 1px;
+}
+.two-box h2 {
+  font-family: "Reem Kufi", sans-serif;
+  font-size: 6rem;
+  transform: translateY(-10px);
+}
+.two-box h1 {
+  margin-top: 80px;
+  transform: translateX(-20%);
+  font-size: 2rem;
+}
+.two-box h1 span {
+  font-size: 1.2rem;
+}
+.header-content img {
+  margin-left: 5%;
+  height: 250px;
+  width: 250px;
+}
