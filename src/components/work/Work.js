@@ -33,7 +33,11 @@ export const Work = () => {
             <small>
               App de Listado de tareas para aprender el uso de "Reducer"
             </small>
-            <a href="" className="github">
+            <a
+              href="https://github.com/AlejandroWogelman/appList-with-REACT-REDUCER"
+              target="_blank"
+              className="github"
+            >
               <img
                 src={
                   require("../../assets/211904_social_github_icon.svg").default
@@ -42,7 +46,11 @@ export const Work = () => {
                 width="35px"
               />
             </a>
-            <a href="" className="google">
+            <a
+              href="https://app-list-2021.netlify.app/"
+              target="_blank"
+              className="google"
+            >
               <img
                 src={
                   require("../../assets/2993685_brand_brands_google_logo_logos_icon.svg")
@@ -73,7 +81,11 @@ export const Work = () => {
             <p>JAVASCRIPT</p>
             <br />
             <small>Landing Page de Practica para FrontEnd-Mentor</small>
-            <a href="" className="github">
+            <a
+              href="https://github.com/AlejandroWogelman/landing-page"
+              target="_blank"
+              className="github"
+            >
               <img
                 src={
                   require("../../assets/211904_social_github_icon.svg").default
@@ -82,7 +94,11 @@ export const Work = () => {
                 width="35px"
               />
             </a>
-            <a href="" className="google">
+            <a
+              href="https://landing-page-challeng.netlify.app/"
+              target="_blank"
+              className="google"
+            >
               <img
                 src={
                   require("../../assets/2993685_brand_brands_google_logo_logos_icon.svg")
@@ -113,7 +129,11 @@ export const Work = () => {
             <p>JAVASCRIPT</p>
             <br />
             <small>Juego de Tateti, aprendiendo el manejo de eventos</small>
-            <a href="" className="github">
+            <a
+              href="https://github.com/AlejandroWogelman/tateti"
+              target="_blank"
+              className="github"
+            >
               <img
                 src={
                   require("../../assets/211904_social_github_icon.svg").default
@@ -122,7 +142,11 @@ export const Work = () => {
                 width="35px"
               />
             </a>
-            <a href="" className="google">
+            <a
+              href="https://tateti2021.netlify.app/"
+              target="_blank"
+              className="google"
+            >
               <img
                 src={
                   require("../../assets/2993685_brand_brands_google_logo_logos_icon.svg")
@@ -158,7 +182,11 @@ export const Work = () => {
               Challenge de ingreso para Alkemy. Uso de redux, autentificación,
               consumos de Api y rutas
             </small>
-            <a href="" className="github">
+            <a
+              href="https://github.com/AlejandroWogelman/Heros-TEAM-allkemy"
+              target="_blank"
+              className="github"
+            >
               <img
                 src={
                   require("../../assets/211904_social_github_icon.svg").default
@@ -167,7 +195,11 @@ export const Work = () => {
                 width="35px"
               />
             </a>
-            <a href="" className="google">
+            <a
+              href="https://super-equipo.netlify.app/"
+              target="_blank"
+              className="google"
+            >
               <img
                 src={
                   require("../../assets/2993685_brand_brands_google_logo_logos_icon.svg")
@@ -198,7 +230,11 @@ export const Work = () => {
             <p>REACT: useStates</p>
             <br />
             <small>Aprendiendo el manejo de "UseState"</small>
-            <a href="" className="github">
+            <a
+              href="https://github.com/AlejandroWogelman/Buscador-de-fotos-de-Perros"
+              target="_blank"
+              className="github"
+            >
               <img
                 src={
                   require("../../assets/211904_social_github_icon.svg").default
@@ -207,7 +243,11 @@ export const Work = () => {
                 width="35px"
               />
             </a>
-            <a className="google" href="">
+            <a
+              className="google"
+              target="_blank"
+              href="https://razas-perros.netlify.app/"
+            >
               <img
                 src={
                   require("../../assets/2993685_brand_brands_google_logo_logos_icon.svg")

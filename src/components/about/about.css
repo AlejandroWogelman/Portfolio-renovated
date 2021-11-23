@@ -1,6 +1,4 @@
 .about-container {
-  min-height: 100vh;
-
   color: rgb(140, 140, 140);
   padding: 7% 15% 5% 15%;
   text-align: center;
@@ -59,4 +57,34 @@
   font-weight: bold;
   font-size: 1.3rem;
   margin: 0 1rem;
+}
+
+@media screen and (max-width: 720px) {
+  .about-container {
+    display: flex;
+    justify-content: center;
+  }
+  .about-img-hob {
+    flex-direction: column;
+    align-items: center;
+  }
+  .img-about-container {
+    width: 100%;
+  }
+  .skills-container,
+  .metodologias-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .skills-content p,
+  .metodologias-content p {
+    font-size: 1.1rem;
+    margin-top: 1.3rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .skills-container,
+  .metodologias-container {
+    padding: 15%;
+  }
 }

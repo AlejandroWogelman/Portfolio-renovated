@@ -4,9 +4,22 @@
   position: relative;
   color: aliceblue;
 }
+nav {
+  padding: 1rem 0;
+  width: 95%;
+  max-width: 1440px;
+  position: fixed;
+  background-color: rgb(62, 182, 187);
+  z-index: 1;
+  border-radius: 0 0 5px 5px;
+
+  left: 0;
+  right: 0;
+
+  margin: auto;
+}
 
 ul {
-  padding-top: 1rem;
   display: flex;
   justify-content: center;
 }
@@ -64,4 +77,23 @@ ul li a:hover {
   margin-left: 5%;
   height: 250px;
   width: 250px;
+}
+@media screen and (max-width: 720px) {
+  .header-content img {
+    display: none;
+  }
+  .two-box {
+    padding: 10px 15px;
+  }
+  .two-box h2 {
+    font-size: 5.5rem;
+  }
+  .first-box {
+    margin-right: 12%;
+  }
+}
+@media screen and (max-width: 500px) {
+  ul li {
+    margin: 10px 1rem;
+  }
 }

@@ -6,6 +6,11 @@
 }
 .App {
   background-color: rgb(249, 249, 249);
+  min-width: 350px;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
 }
 .work-title {
   font-size: 2.3rem;

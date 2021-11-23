@@ -1,7 +1,7 @@
 .work-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  gap: 1rem;
   padding: 0 5%;
 }
 .work-container article {
@@ -33,9 +33,6 @@
   position: relative;
 }
 
-.info-work div a :hover {
-}
-
 .google {
   position: absolute;
   top: 0%;
@@ -56,4 +53,14 @@
 }
 .active {
   transform: translateY(0px);
+}
+@media screen and (max-width: 720px) {
+  .work-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 500px) {
+  .work-container {
+    grid-template-columns: 1fr;
+  }
 }
