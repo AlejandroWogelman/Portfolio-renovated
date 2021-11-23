@@ -9,7 +9,9 @@ function App() {
       <Header />
       <main>
         <About />
-        <h2 className="work-title">work</h2>
+        <h2 className="work-title" id="work">
+          work
+        </h2>
         <Work />
       </main>
     </div>
