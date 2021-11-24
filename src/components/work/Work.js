@@ -37,6 +37,7 @@ export const Work = () => {
               href="https://github.com/AlejandroWogelman/appList-with-REACT-REDUCER"
               target="_blank"
               className="github"
+              rel="noreferrer"
             >
               <img
                 src={
@@ -50,6 +51,7 @@ export const Work = () => {
               href="https://app-list-2021.netlify.app/"
               target="_blank"
               className="google"
+              rel="noreferrer"
             >
               <img
                 src={
@@ -85,6 +87,7 @@ export const Work = () => {
               href="https://github.com/AlejandroWogelman/landing-page"
               target="_blank"
               className="github"
+              rel="noreferrer"
             >
               <img
                 src={
@@ -98,6 +101,7 @@ export const Work = () => {
               href="https://landing-page-challeng.netlify.app/"
               target="_blank"
               className="google"
+              rel="noreferrer"
             >
               <img
                 src={
@@ -133,6 +137,7 @@ export const Work = () => {
               href="https://github.com/AlejandroWogelman/tateti"
               target="_blank"
               className="github"
+              rel="noreferrer"
             >
               <img
                 src={
@@ -146,6 +151,7 @@ export const Work = () => {
               href="https://tateti2021.netlify.app/"
               target="_blank"
               className="google"
+              rel="noreferrer"
             >
               <img
                 src={
@@ -186,6 +192,7 @@ export const Work = () => {
               href="https://github.com/AlejandroWogelman/Heros-TEAM-allkemy"
               target="_blank"
               className="github"
+              rel="noreferrer"
             >
               <img
                 src={
@@ -198,6 +205,7 @@ export const Work = () => {
             <a
               href="https://super-equipo.netlify.app/"
               target="_blank"
+              rel="noreferrer"
               className="google"
             >
               <img
@@ -234,6 +242,7 @@ export const Work = () => {
               href="https://github.com/AlejandroWogelman/Buscador-de-fotos-de-Perros"
               target="_blank"
               className="github"
+              rel="noreferrer"
             >
               <img
                 src={
@@ -246,6 +255,7 @@ export const Work = () => {
             <a
               className="google"
               target="_blank"
+              rel="noreferrer"
               href="https://razas-perros.netlify.app/"
             >
               <img

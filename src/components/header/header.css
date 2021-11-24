@@ -1,15 +1,17 @@
 .header {
   height: 100vh;
+  max-height: 950px;
   background-color: rgb(62, 182, 187);
   position: relative;
   color: aliceblue;
 }
 nav {
   padding: 1rem 0;
-  width: 95%;
-  max-width: 1440px;
+  width: 100%;
+
   position: fixed;
   background-color: rgb(62, 182, 187);
+  backdrop-filter: blur(2px);
   z-index: 1;
   border-radius: 0 0 5px 5px;
 
@@ -78,6 +80,7 @@ ul li a:hover {
   height: 250px;
   width: 250px;
 }
+
 @media screen and (max-width: 720px) {
   .header-content img {
     display: none;
@@ -90,6 +93,20 @@ ul li a:hover {
   }
   .first-box {
     margin-right: 12%;
+  }
+  .navFixed {
+    bottom: 0;
+    border-radius: 5px;
+    animation-name: transition;
+    animation-duration: 1.8s;
+  }
+  @keyframes transition {
+    from {
+      transform: translateY(-1500px);
+    }
+    to {
+      transform: translateY(0px);
+    }
   }
 }
 @media screen and (max-width: 500px) {

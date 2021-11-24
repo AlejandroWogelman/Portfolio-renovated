@@ -1,10 +1,23 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./header.css";
 
 export const Header = () => {
+  const [state, setstate] = useState(false);
+  const ref = useRef();
+
+  useEffect(() => {
+    document.addEventListener("scroll", (e) => {
+      console.log(window.screen);
+      if (e.target.scrollingElement.scrollTop >= ref.current.offsetHeight) {
+        setstate(true);
+      } else {
+        setstate(false);
+      }
+    });
+  }, []);
   return (
-    <header className="header">
-      <nav>
+    <header className="header" ref={ref}>
+      <nav className={state ? "navFixed" : null}>
         <ul>
           <li>
             <a href="#about">About</a>
