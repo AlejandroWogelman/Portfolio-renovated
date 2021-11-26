@@ -65,9 +65,16 @@ export const About = () => {
                 className="about-img"
                 src={require("../../assets/perfil.jpg").default}
                 alt="perfil"
-                width="200px"
-                height="200px"
+                width="180px"
+                height="180px"
               />
+              <a
+                href="https://drive.google.com/file/d/11bHKZeBW3yv8iY4AfQpvwcBDTu17LfGq/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                CV
+              </a>
             </div>
           </div>
         </article>
