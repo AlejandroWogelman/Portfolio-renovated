@@ -8,20 +8,17 @@
 nav {
   padding: 1rem 0;
   width: 100%;
-
   position: fixed;
   background-color: rgb(62, 182, 187);
   backdrop-filter: blur(2px);
   z-index: 1;
   border-radius: 0 0 5px 5px;
-
   left: 0;
   right: 0;
-
   margin: auto;
 }
 
-ul {
+nav ul {
   display: flex;
   justify-content: center;
 }
@@ -29,13 +26,13 @@ ul li {
   margin: 10px 2rem;
   list-style: none;
 }
-ul li a {
+nav ul li a {
   text-decoration: none;
   color: aliceblue;
   padding: 10px;
   transition: 0.5s;
 }
-ul li a:hover {
+nav ul li a:hover {
   background-color: rgb(33, 142, 146);
 }
 .header-content {
@@ -110,7 +107,7 @@ ul li a:hover {
   }
 }
 @media screen and (max-width: 500px) {
-  ul li {
+  nav ul li {
     margin: 10px 1rem;
   }
 }

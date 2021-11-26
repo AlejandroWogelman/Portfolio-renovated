@@ -3,6 +3,7 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   padding: 0 5%;
+  padding-bottom: 3rem;
 }
 .work-container article {
   display: flex;

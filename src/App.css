@@ -4,10 +4,12 @@
   padding: 0%;
   font-family: "Julius Sans One", sans-serif;
 }
+:root {
+  scroll-behavior: smooth;
+}
 .App {
   background-color: rgb(249, 249, 249);
   min-width: 350px;
-
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -17,4 +19,5 @@
   text-align: center;
   color: rgb(140, 140, 140);
   padding: 3rem 0;
+  font-family: "Comfortaa", cursive;
 }

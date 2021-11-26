@@ -7,11 +7,14 @@ export const Header = () => {
 
   useEffect(() => {
     document.addEventListener("scroll", (e) => {
-      console.log(window.screen);
       if (e.target.scrollingElement.scrollTop >= ref.current.offsetHeight) {
-        setstate(true);
+        if (state !== true) {
+          setstate(true);
+        }
       } else {
-        setstate(false);
+        if (state !== false) {
+          setstate(false);
+        }
       }
     });
   }, []);
