@@ -8,11 +8,67 @@ export const Work = () => {
     sunnyside: false,
     perros: false,
     challengeALK: false,
+    animalSearch: false,
   };
   const [inElement, setInElement] = useState(initialState);
 
   return (
     <section className="work-container">
+      <article
+        onMouseOver={() => setInElement({ ...inElement, animalSearch: true })}
+        onMouseOut={() => setInElement({ ...inElement, animalSearch: false })}
+      >
+        <img
+          src={require("../../assets/AnimalSearch.png").default}
+          width="100%"
+          alt="map"
+        />
+        <div
+          className={inElement.animalSearch ? "info-work active" : "info-work"}
+        >
+          <div style={{ position: "relative" }}>
+            <h3>Buscador de Mascotas</h3>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>REACT</p>
+            <br />
+            <small>
+              Aplicación para el marcado de mascotas extraviadas sobre un mapa
+              interactivo y uso de Geocoding.
+            </small>
+            <a
+              href="https://github.com/AlejandroWogelman/Animal--search"
+              target="_blank"
+              className="github"
+              rel="noreferrer"
+            >
+              <img
+                src={
+                  require("../../assets/211904_social_github_icon.svg").default
+                }
+                alt="logo-git"
+                width="35px"
+              />
+            </a>
+            <a
+              href="https://animal-search.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+              className="google"
+            >
+              <img
+                src={
+                  require("../../assets/2993685_brand_brands_google_logo_logos_icon.svg")
+                    .default
+                }
+                width="30px"
+                alt="logo-google"
+              />
+            </a>
+          </div>
+        </div>
+      </article>
+
       <article
         onMouseOver={() => setInElement({ ...inElement, appList: true })}
         onMouseOut={() => setInElement({ ...inElement, appList: false })}
