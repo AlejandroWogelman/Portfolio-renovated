@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Contact/> Contact rendering 1`] = `
+<section
+  className="contact-container"
+>
+  <h2
+    className="contact-title"
+    id="contact"
+  >
+    contact
+  </h2>
+  <div
+    className="contact-mail"
+  >
+    <a
+      href="mailto:alehellamn@gmail.com"
+    >
+      alehellamn@gmail.com
+    </a>
+  </div>
+  <ul
+    className="ul-nav"
+  >
+    <li>
+      <a
+        className="contact-icon"
+        href="https://github.com/AlejandroWogelman?tab=repositories"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <i
+          className="fab fa-github"
+        />
+      </a>
+    </li>
+    <li>
+      <a
+        className="contact-icon"
+        href="https://www.linkedin.com/in/alejandrowogel?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2BvtBYjh%2FQrCJ4tOULZ7mag%3D%3D"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <i
+          className="fab fa-linkedin-in"
+        />
+      </a>
+    </li>
+    <li>
+      <a
+        className="contact-icon"
+        href="https://www.facebook.com/AlejandroWogel/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <i
+          className="fab fa-facebook-f"
+        />
+      </a>
+    </li>
+  </ul>
+</section>
+`;

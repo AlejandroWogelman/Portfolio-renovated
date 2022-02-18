@@ -21,18 +21,32 @@
   background-color: rgba(0, 0, 0, 0.397);
   backdrop-filter: blur(5px);
   transform: translateY(150%);
-  transition: 0.3s ease-out;
+  transition: 0.6s ease-out;
   color: white;
   text-shadow: 1px 1px 1px rgb(0, 0, 0);
-  padding: 0 3px;
+  padding: 5px;
 }
 .work-container article div {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
 }
-.info-work div {
-  position: relative;
+
+.btns-card-containter {
+  width: 100%;
+  display: flex !important;
+  flex-direction: row !important;
+}
+.btns-card-containter button {
+  margin: 0 auto;
+  margin-top: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+}
+.btns-card-containter button:hover {
+  box-shadow: 0 0 7px inset rgba(17, 17, 17, 0.109);
 }
 
 .google {
@@ -55,6 +69,7 @@
 }
 .active {
   transform: translateY(0px);
+  overflow-y: auto;
 }
 @media screen and (max-width: 770px) {
   .work-container {

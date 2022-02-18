@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<About/> rendered of contact component 1`] = `
+<Fragment>
+  <section
+    className="about-container"
+    id="about"
+  >
+    <article>
+      <h2>
+        about me
+      </h2>
+      <p
+        className="mt"
+      >
+        Hola! Soy Alejandro Wogelman. Desde hace un año me encuentro aprendiendo y aplicando cada nuevo concepto. Actualmente me encuentro en la busqueda para poder integrar equipos de trabajo ya que creo no hay mejor forma de mejorar que HACER!
+      </p>
+      <br />
+      <hr />
+      <div
+        className="about-img-hob"
+      >
+        <div>
+          <ul>
+            <li>
+              Gym:
+              <img
+                alt="gym"
+                src="Fitness_Monochromatic.svg"
+                width="80px"
+              />
+            </li>
+            <li>
+              Futbol:
+              <img
+                alt="soccer"
+                src="Soccer_Isometric.svg"
+                width="80px"
+              />
+            </li>
+            <li>
+              Cursos:
+              <img
+                alt="cursos"
+                src="Javascript_Isometric.svg"
+                width="80px"
+              />
+            </li>
+            <li>
+              Anime:
+              <img
+                alt="anime"
+                src="ball_dragon_game_movie_icon_183186.svg"
+                width="50px"
+              />
+            </li>
+          </ul>
+        </div>
+        <div
+          className="img-about-container"
+        >
+          <img
+            alt="perfil"
+            className="about-img"
+            height="180px"
+            width="180px"
+          />
+          <a
+            href="https://drive.google.com/file/d/11bHKZeBW3yv8iY4AfQpvwcBDTu17LfGq/view?usp=sharing"
+            rel="noreferrer"
+            target="_blank"
+          >
+            CV
+          </a>
+        </div>
+      </div>
+    </article>
+  </section>
+  <article
+    className="skills-container"
+  >
+    <div>
+      <h3>
+        Skills
+      </h3>
+      <p
+        style={
+          Object {
+            "fontSize": "1.5rem",
+            "margin": "0px",
+          }
+        }
+      >
+        Experiencia en
+      </p>
+    </div>
+    <div
+      className="skills-content"
+    >
+      <p>
+        HTML
+      </p>
+      <p>
+        CSS
+      </p>
+      <p>
+        JAVASCRIPT
+      </p>
+      <p>
+        REACT
+      </p>
+    </div>
+  </article>
+  <article
+    className="metodologias-container"
+  >
+    <div>
+      <h3>
+        Metodología
+      </h3>
+      <p
+        style={
+          Object {
+            "fontSize": "1.5rem",
+            "margin": "0px",
+          }
+        }
+      >
+        SCRUM
+      </p>
+    </div>
+    <div
+      className="metodologias-content"
+    >
+      <p>
+        BITBUCKET
+      </p>
+      <p>
+        JIRA
+      </p>
+      <p>
+        CLOCKIFY
+      </p>
+    </div>
+  </article>
+</Fragment>
+`;

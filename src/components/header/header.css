@@ -11,7 +11,7 @@ nav {
   position: fixed;
   background-color: rgb(62, 182, 187);
   backdrop-filter: blur(2px);
-  z-index: 1;
+  z-index: 900;
   border-radius: 0 0 5px 5px;
   left: 0;
   right: 0;

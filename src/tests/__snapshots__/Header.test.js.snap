@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header/> Render of header component 1`] = `
+<header
+  className="header"
+>
+  <nav
+    className={null}
+  >
+    <ul>
+      <li>
+        <a
+          href="#about"
+        >
+          About
+        </a>
+      </li>
+      <li>
+        <a
+          href="#work"
+        >
+          Work
+        </a>
+      </li>
+      <li>
+        <a
+          href="#contact"
+        >
+          Contact
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <div
+    className="header-content"
+  >
+    <div
+      className="first-box"
+    >
+      <div
+        className="two-box"
+      >
+        <h2>
+          Hola!
+        </h2>
+        <h1>
+          Soy Alejandro, 
+          <br />
+          <span>
+            Frontend developer
+          </span>
+        </h1>
+      </div>
+    </div>
+    <img
+      alt="coding"
+      height="100%"
+      width="100%"
+    />
+  </div>
+</header>
+`;
