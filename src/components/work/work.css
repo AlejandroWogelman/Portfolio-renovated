@@ -26,6 +26,9 @@
   text-shadow: 1px 1px 1px rgb(0, 0, 0);
   padding: 5px;
 }
+.info-work div {
+  position: relative;
+}
 .work-container article div {
   display: flex;
   flex-direction: column;
