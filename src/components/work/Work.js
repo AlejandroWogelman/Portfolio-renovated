@@ -244,6 +244,7 @@ export const Work = () => {
               <p>HTML </p>
               <p>CSS</p>
               <p>JAVASCRIPT</p>
+              <br />
               <p>
                 <span>DOM</span>
               </p>
