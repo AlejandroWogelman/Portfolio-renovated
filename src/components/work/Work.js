@@ -28,14 +28,22 @@ export const Work = () => {
             }
           >
             <div>
-              <h3>Buscador de Mascotas</h3>
               <p>HTML</p>
               <p>CSS</p>
-              <p>REACT</p>
+
+              <p>
+                REACT
+                <br />
+                <br />
+                <span>Leaflet</span> - <span>Redux</span> -{" "}
+                <span>Firebase</span>
+                <br />
+                <span>Geocoding / Api</span>
+              </p>
               <br />
               <small>
                 Aplicación para el marcado de mascotas extraviadas sobre un mapa
-                interactivo y uso de Geocoding.
+                interactivo.
               </small>
               <a
                 href="https://github.com/AlejandroWogelman/Animal--search"
@@ -71,6 +79,7 @@ export const Work = () => {
           </div>
         </div>
         <div className="btns-card-containter">
+          <h3>Buscador de Mascotas perdidas</h3>
           {inElement.animalSearch !== true ? (
             <Button
               setInElement={setInElement}
@@ -96,11 +105,15 @@ export const Work = () => {
           />
           <div className={inElement.appList ? "info-work active" : "info-work"}>
             <div>
-              <h3>Lista de Tareas</h3>
               <p>HTML </p>
               <p>CSS</p>
               <p>JAVASCRIPT</p>
-              <p>REACT - Reducer</p>
+              <p>
+                REACT
+                <br />
+                <br />
+                <span>Reducer </span>{" "}
+              </p>
               <br />
               <small>
                 App de Listado de tareas para aprender el uso de "Reducer"
@@ -139,6 +152,7 @@ export const Work = () => {
           </div>
         </div>
         <div className="btns-card-containter">
+          <h3>Lista de Tareas</h3>
           {inElement.appList !== true ? (
             <Button setInElement={setInElement} name={"appList"} arrow={"up"} />
           ) : (
@@ -162,7 +176,6 @@ export const Work = () => {
           >
             <div>
               {" "}
-              <h3>Landing Page</h3>
               <p>HTML </p>
               <p>CSS</p>
               <p>JAVASCRIPT</p>
@@ -202,6 +215,7 @@ export const Work = () => {
           </div>
         </div>
         <div className="btns-card-containter">
+          <h3>Landing Page</h3>
           {inElement.sunnyside !== true ? (
             <Button
               setInElement={setInElement}
@@ -227,10 +241,12 @@ export const Work = () => {
           <div className={inElement.tateti ? "info-work active" : "info-work"}>
             <div>
               {" "}
-              <h3>Juego de Tateti</h3>
               <p>HTML </p>
               <p>CSS</p>
               <p>JAVASCRIPT</p>
+              <p>
+                <span>DOM</span>
+              </p>
               <br />
               <small>Juego de Tateti, aprendiendo el manejo de eventos</small>
               <a
@@ -267,6 +283,7 @@ export const Work = () => {
           </div>
         </div>
         <div className="btns-card-containter">
+          <h3>Juego de Tateti</h3>
           {inElement.tateti !== true ? (
             <Button setInElement={setInElement} name={"tateti"} arrow={"up"} />
           ) : (
@@ -291,11 +308,14 @@ export const Work = () => {
             }
           >
             <div style={{ position: "relative" }}>
-              <h3>Challenge Alkemy</h3>
               <p>HTML </p>
               <p>CSS</p>
               <p>JAVASCRIPT</p>
-              <p>REACT : Redux</p>
+              <p>
+                REACT <br />
+                <br /> <span>Redux</span> - <span>React Router</span> -{" "}
+                <span>Formik</span> - <span>Api</span>
+              </p>
               <br />
               <small>
                 Challenge de ingreso para Alkemy. Uso de redux, autentificación,
@@ -335,6 +355,7 @@ export const Work = () => {
           </div>
         </div>
         <div className="btns-card-containter">
+          <h3>Challenge Alkemy</h3>
           {inElement.challengeALK !== true ? (
             <Button
               setInElement={setInElement}
@@ -359,11 +380,15 @@ export const Work = () => {
           />
           <div className={inElement.perros ? "info-work active" : "info-work"}>
             <div>
-              <h3>Busqueda de Razas</h3>
               <p>HTML </p>
               <p>CSS</p>
               <p>JAVASCRIPT</p>
-              <p>REACT: useStates</p>
+              <p>
+                REACT
+                <br />
+                <br />
+                <span>useState</span>
+              </p>
               <br />
               <small>Aprendiendo el manejo de "UseState"</small>
               <a
@@ -400,6 +425,7 @@ export const Work = () => {
           </div>
         </div>
         <div className="btns-card-containter">
+          <h3>Busqueda de Razas</h3>
           {inElement.perros !== true ? (
             <Button setInElement={setInElement} name={"perros"} arrow={"up"} />
           ) : (

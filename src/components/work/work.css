@@ -18,16 +18,32 @@
   position: absolute;
   bottom: 0px;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.397);
+  background-color: rgba(0, 0, 0, 0.465);
   backdrop-filter: blur(5px);
   transform: translateY(150%);
   transition: 0.6s ease-out;
   color: white;
-  text-shadow: 1px 1px 1px rgb(0, 0, 0);
   padding: 5px;
+}
+.info-work small {
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px 5px;
 }
 .info-work div {
   position: relative;
+  padding-top: 5px;
+}
+.info-work div p {
+  font-weight: 800;
+  margin: 2px 0;
+  color: rgb(255, 253, 253);
+}
+.info-work div p span {
+  background-color: rgb(163, 39, 35);
+  border-radius: 10px;
+  padding: 2px;
+  color: white;
 }
 .work-container article div {
   display: flex;
@@ -37,8 +53,9 @@
 
 .btns-card-containter {
   width: 100%;
-  display: flex !important;
-  flex-direction: row !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .btns-card-containter button {
   margin: 0 auto;
@@ -74,6 +91,17 @@
   transform: translateY(0px);
   overflow-y: auto;
 }
+.active::-webkit-scrollbar {
+  width: 3px black;
+}
+.active::-webkit-scrollbar {
+  width: 8px;
+}
+.active::-webkit-scrollbar-thumb {
+  background-color: rgb(108, 202, 211);
+  border-radius: 5px;
+}
+
 @media screen and (max-width: 770px) {
   .work-container {
     grid-template-columns: repeat(2, 1fr);
