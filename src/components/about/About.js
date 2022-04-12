@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import { viewModal } from "../Modal";
 import "./about.css";
 
 export const About = () => {
@@ -63,18 +64,14 @@ export const About = () => {
             <div className="img-about-container">
               <img
                 className="about-img"
-                src={require("../../assets/perfil.jpg").default}
+                src={require("../../assets/perfilImageShort.jpg").default}
                 alt="perfil"
                 width="180px"
                 height="180px"
               />
-              <a
-                href="https://drive.google.com/file/d/11bHKZeBW3yv8iY4AfQpvwcBDTu17LfGq/view?usp=sharing"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <button className="btn-cv" onClick={viewModal}>
                 CV
-              </a>
+              </button>
             </div>
           </div>
         </article>
@@ -89,6 +86,7 @@ export const About = () => {
           <p>CSS</p>
           <p>JAVASCRIPT</p>
           <p>REACT</p>
+          <p>TYPESCRIPT</p>
         </div>
       </article>
       <article className="metodologias-container">

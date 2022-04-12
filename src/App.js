@@ -1,9 +1,9 @@
-import "./App.css";
 import { About } from "./components/about/About";
 import { Contact } from "./components/contact/Contact";
 import { Header } from "./components/header/Header";
 import { Work } from "./components/work/Work";
 
+import "./App.css";
 function App() {
   return (
     <div className="App">

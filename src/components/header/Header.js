@@ -17,7 +17,7 @@ export const Header = () => {
         }
       }
     });
-  }, []);
+  }, [state]);
   return (
     <header className="header" ref={ref}>
       <nav className={state ? "navFixed" : null}>

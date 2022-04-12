@@ -21,3 +21,7 @@
   padding: 3rem 0;
   font-family: "Comfortaa", cursive;
 }
+.popup-content {
+  width: 80%;
+  max-width: 700px;
+}

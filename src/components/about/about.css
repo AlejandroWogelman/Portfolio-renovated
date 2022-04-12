@@ -32,7 +32,8 @@
 }
 .about-img {
   margin-top: 2rem;
-  border-radius: 5px;
+  border-radius: 10px;
+  object-fit: contain;
 }
 
 .img-about-container {
@@ -78,6 +79,17 @@
   margin: 0 1rem;
 }
 
+.btn-cv {
+  padding: 5px 10px;
+  border: none;
+  background-color: black;
+  color: rgb(249, 249, 246);
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
 @media screen and (max-width: 720px) {
   .about-container {
     display: flex;
@@ -108,5 +120,14 @@
   }
   .about-container {
     padding: 5% 2%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .skills-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .skills-content p:last-child {
+    grid-column: 1/3;
   }
 }
