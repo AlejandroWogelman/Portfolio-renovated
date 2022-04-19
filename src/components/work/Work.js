@@ -6,7 +6,7 @@ export const Work = () => {
   const initialState = {
     tateti: false,
     appList: false,
-    sunnyside: false,
+    mercadoLibre: false,
     perros: false,
     challengeALK: false,
     animalSearch: false,
@@ -18,6 +18,7 @@ export const Work = () => {
       <article>
         <div style={{ position: "relative", overflow: "hidden" }}>
           <img
+            className="img-work"
             src={require("../../assets/AnimalSearch.png").default}
             width="100%"
             alt="map"
@@ -79,7 +80,7 @@ export const Work = () => {
           </div>
         </div>
         <div className="btns-card-containter">
-          <h3>Buscador de Mascotas perdidas</h3>
+          <h3>Buscador de Mascotas</h3>
           {inElement.animalSearch !== true ? (
             <Button
               setInElement={setInElement}
@@ -99,6 +100,7 @@ export const Work = () => {
       <article>
         <div style={{ position: "relative", overflow: "hidden" }}>
           <img
+            className="img-work"
             src={require("../../assets/appList.png").default}
             width="100%"
             alt="appList"
@@ -167,22 +169,31 @@ export const Work = () => {
       <article>
         <div style={{ position: "relative", overflow: "hidden" }}>
           <img
-            src={require("../../assets/landing1.png").default}
+            className="img-work"
+            src={require("../../assets/meliScreen.png").default}
             width="100%"
             alt="Landing"
           />
           <div
-            className={inElement.sunnyside ? "info-work active" : "info-work"}
+            className={
+              inElement.mercadoLibre ? "info-work active" : "info-work"
+            }
           >
             <div>
               {" "}
-              <p>HTML </p>
+              <p>REACT</p>
               <p>CSS</p>
-              <p>JAVASCRIPT</p>
+              <p>VITE</p>
+              <p>
+                <span>TYPESCRIPT</span>
+              </p>
               <br />
-              <small>Landing Page de Practica para FrontEnd-Mentor</small>
+              <small>
+                Página de Detalle de Mercado Libre y simulación de algunas
+                funciones.
+              </small>
               <a
-                href="https://github.com/AlejandroWogelman/landing-page"
+                href="https://github.com/AlejandroWogelman/mercadoLibre-copy"
                 target="_blank"
                 className="github"
                 rel="noreferrer"
@@ -197,7 +208,7 @@ export const Work = () => {
                 />
               </a>
               <a
-                href="https://landing-page-challeng.netlify.app/"
+                href="https://mercado-libre-copy.netlify.app/"
                 target="_blank"
                 className="google"
                 rel="noreferrer"
@@ -215,17 +226,17 @@ export const Work = () => {
           </div>
         </div>
         <div className="btns-card-containter">
-          <h3>Landing Page</h3>
-          {inElement.sunnyside !== true ? (
+          <h3>Mercado-Libre Detalles</h3>
+          {inElement.mercadoLibre !== true ? (
             <Button
               setInElement={setInElement}
-              name={"sunnyside"}
+              name={"mercadoLibre"}
               arrow={"up"}
             />
           ) : (
             <Button
               setInElement={setInElement}
-              name={"sunnyside"}
+              name={"mercadoLibre"}
               arrow={"down"}
             />
           )}
@@ -234,6 +245,7 @@ export const Work = () => {
       <article>
         <div style={{ position: "relative", overflow: "hidden" }}>
           <img
+            className="img-work"
             src={require("../../assets/tateti1.png").default}
             width="100%"
             alt="tateti"
@@ -299,6 +311,7 @@ export const Work = () => {
       <article>
         <div style={{ position: "relative", overflow: "hidden" }}>
           <img
+            className="img-work"
             src={require("../../assets/heros-Alkemy.png").default}
             width="100%"
             alt="heros"
@@ -375,6 +388,7 @@ export const Work = () => {
       <article>
         <div style={{ position: "relative", overflow: "hidden" }}>
           <img
+            className="img-work"
             src={require("../../assets/buscador-perros.png").default}
             width="100%"
             alt="Dogs-page"

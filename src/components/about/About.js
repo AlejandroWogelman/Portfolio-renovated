@@ -83,10 +83,10 @@ export const About = () => {
         </div>
         <div className="skills-content">
           <p>HTML</p>
-          <p>CSS</p>
-          <p>JAVASCRIPT</p>
           <p>REACT</p>
+          <p>CSS</p>
           <p>TYPESCRIPT</p>
+          <p>JAVASCRIPT</p>
         </div>
       </article>
       <article className="metodologias-container">

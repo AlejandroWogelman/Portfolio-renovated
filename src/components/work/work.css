@@ -25,6 +25,12 @@
   color: white;
   padding: 5px;
 }
+
+.img-work {
+  max-height: 260px;
+  object-fit: contain;
+}
+
 .info-work small {
   background-color: black;
   border-radius: 10px;
@@ -57,6 +63,10 @@
   flex-direction: column;
   align-items: center;
 }
+.btns-card-containter h3 {
+  margin-top: 10px;
+}
+
 .btns-card-containter button {
   margin: 0 auto;
   margin-top: 3px;
@@ -102,12 +112,12 @@
   border-radius: 5px;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 805px) {
   .work-container {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 530px) {
   .work-container {
     grid-template-columns: 1fr;
   }
