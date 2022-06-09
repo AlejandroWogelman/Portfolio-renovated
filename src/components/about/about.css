@@ -92,12 +92,15 @@
 .btn-cv {
   padding: 5px 10px;
   border: none;
-  background-color: black;
+  background-color: rgb(193, 55, 55);
   color: rgb(249, 249, 246);
   font-size: 1rem;
   cursor: pointer;
   font-weight: bold;
   border-radius: 5px;
+}
+.btn-cv:hover {
+  opacity: 0.9;
 }
 
 @media screen and (max-width: 720px) {
