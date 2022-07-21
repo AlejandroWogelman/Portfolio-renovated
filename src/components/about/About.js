@@ -9,11 +9,15 @@ export const About = () => {
         <article>
           <h2>about me</h2>
           <p className="mt">
-            Hola! Soy Alejandro Wogelman. Desde hace un año me encuentro
-            aprendiendo y aplicando cada nuevo concepto. Actualmente me
-            encuentro en la busqueda para poder integrar equipos de trabajo ya
-            que creo no hay mejor forma de mejorar que HACER!
+            Hola! Soy Alejandro Wogelman. Desde hace un tiempo me encuentro
+            aprendiendo y aplicando cada nuevo concepto.
+            <br />
+            <br />
+            Actualmente me encuentro en la busqueda para poder integrar un
+            equipo de trabajo que me permita seguir aprendiendo, mejorando y
+            aplicando.
           </p>
+          <br /> <p>Para mejorar hay que HACER!</p>
           <br />
           <hr />
           <div className="about-img-hob">
