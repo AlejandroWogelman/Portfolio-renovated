@@ -38,7 +38,7 @@ const data = [
     git: "https://github.com/AlejandroWogelman/Animal--search",
     link: "https://animal-search.vercel.app/",
   },
-  {
+  /* {
     name: "Razas de Perros",
     img: require("../../assets/buscador-perros.png").default,
     skills: ["HTML", "CSS", "REACT"],
@@ -46,7 +46,7 @@ const data = [
     principal: ["UseState"],
     git: "https://github.com/AlejandroWogelman/Buscador-de-fotos-de-Perros",
     link: "https://razas-perros.netlify.app/",
-  },
+  }, */
   {
     name: "Alkemy Challenge",
     img: require("../../assets/heros-Alkemy.png").default,
