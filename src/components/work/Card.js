@@ -1,6 +1,15 @@
+import { useRef } from "react";
 import { Links } from "./Links";
+import Up from "../../assets/up.svg";
 
 export const Card = ({ img, name, principal, text, skills, link, git }) => {
+  const infoRef = useRef();
+  const imgRotate = useRef();
+  const handleClick = () => {
+    infoRef.current.classList.toggle("show");
+    imgRotate.current.classList.toggle("rotate");
+  };
+
   return (
     <>
       <div className="card_container">
@@ -8,10 +17,10 @@ export const Card = ({ img, name, principal, text, skills, link, git }) => {
         <div className="card_content">
           <img src={img} alt={name} />
 
-          <div className="card_hidden">
+          <div ref={infoRef} className="card_hidden">
             <div className="card_links">
               <Links link={link} />
-              <Links link={link} git={true} />
+              <Links link={git} git={true} />
             </div>
             <div className="card_data">
               <div className="card_skills">
@@ -31,6 +40,9 @@ export const Card = ({ img, name, principal, text, skills, link, git }) => {
             </div>
           </div>
         </div>
+        <button className="btn-show" onClick={handleClick}>
+          <img src={Up} alt="more" ref={imgRotate} />
+        </button>
       </div>
     </>
   );

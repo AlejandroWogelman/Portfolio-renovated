@@ -38,15 +38,15 @@ const data = [
     git: "https://github.com/AlejandroWogelman/Animal--search",
     link: "https://animal-search.vercel.app/",
   },
-  /* {
-    name: "Razas de Perros",
-    img: require("../../assets/buscador-perros.png").default,
+  {
+    name: "E-commerce",
+    img: require("../../assets/tecnoStore.png").default,
     skills: ["HTML", "CSS", "REACT"],
-    text: "Aprendiendo el manejo de 'UseState'",
-    principal: ["UseState"],
-    git: "https://github.com/AlejandroWogelman/Buscador-de-fotos-de-Perros",
-    link: "https://razas-perros.netlify.app/",
-  }, */
+    text: "Proyecto trabajando en equipo para NO Country. Back-ends y Front-ends",
+    principal: ["REDUX", "React-router", "Api"],
+    git: "https://github.com/No-Country/c6-22",
+    link: "https://new-tecnostore.netlify.app/",
+  },
   {
     name: "Alkemy Challenge",
     img: require("../../assets/heros-Alkemy.png").default,
