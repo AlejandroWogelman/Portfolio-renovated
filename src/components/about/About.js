@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { viewModal } from "../Modal";
 import "./about.css";
 

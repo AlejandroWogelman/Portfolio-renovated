@@ -61,9 +61,9 @@
   justify-content: space-evenly;
   align-items: center;
   background-color: rgb(244, 189, 51);
-  color: rgb(247, 242, 232);
   padding: 5%;
   font-size: 1.8rem;
+  color: rgb(37, 37, 37);
 }
 .metodologias-container {
   background-color: rgb(79, 197, 144);
