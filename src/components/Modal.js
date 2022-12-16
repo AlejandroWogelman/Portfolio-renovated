@@ -3,7 +3,7 @@ import withReactContent from "sweetalert2-react-content";
 
 const download = () => {
   const a = document.createElement("a");
-  a.href = require("../assets/Wogelman-Alejandro-Es.pdf").default;
+  a.href = require("../assets/Wogelman-Front-1.pdf").default;
   a.setAttribute("download", "CV-Wogelman-Alejandro");
   a.click();
 };
@@ -12,7 +12,7 @@ export const viewModal = () => {
   const MySwal = withReactContent(Swal);
 
   return MySwal.fire({
-    imageUrl: require("../assets/Alejandro-Wogelman-Es.png").default,
+    imageUrl: require("../assets/Wogelman.png").default,
     imageWidth: "1000",
     imageAlt: "C.V",
     showCancelButton: true,
