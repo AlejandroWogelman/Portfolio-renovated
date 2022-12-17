@@ -1,0 +1,76 @@
+.more {
+  width: 100%;
+  padding: 0 5%;
+}
+.more__title {
+  text-align: center;
+}
+.more__grid {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 5%;
+  gap: 10% 3%;
+  margin-bottom: 5rem;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+  height: 1px;
+  overflow: hidden;
+
+  animation-name: close;
+  animation-duration: 1s;
+  opacity: 1;
+}
+
+@keyframes close {
+  0% {
+    height: 200px;
+  }
+  100% {
+    height: 1px;
+    opacity: 0.3;
+  }
+}
+
+.more__grid .card_container {
+  width: 282px;
+  transition: heigth 1s;
+}
+.more__grid .card_container img {
+  max-height: 200px;
+}
+
+.more__button {
+  border: none;
+  display: block;
+  margin: 0 auto;
+  width: 60px;
+  transform: rotate(180deg);
+  background-color: transparent;
+  transition: transform 0.3s;
+}
+.more__button img {
+  width: 100%;
+}
+
+.more__button:hover {
+  transform: scale(1.1);
+}
+
+.expand {
+  animation-name: open;
+  animation-duration: 1s;
+  height: auto;
+}
+@keyframes open {
+  0% {
+    height: 1px;
+  }
+  100% {
+    height: 330px;
+    opacity: 1 !important;
+  }
+}
+
+.arrow--bottom {
+  transform: rotate(0);
+}
