@@ -17,8 +17,8 @@ const data = [
     skills: ["REACT", "VITE", "CSS"],
     text: "Página de Detalle de Mercado Libre y simulación de algunas funciones.",
     principal: ["TYPESCRIPT"],
-    git: "https://meli-chllenge.netlify.app/",
-    link: "https://mercado-libre-copy.netlify.app/",
+    git: "https://github.com/AlejandroWogelman/mercadoLibre-copy",
+    link: "https://meli-chllenge.netlify.app/",
   },
   {
     name: "Blogr Landing",
