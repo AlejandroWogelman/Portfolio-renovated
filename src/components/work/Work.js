@@ -18,7 +18,7 @@ const data = [
     text: "Página de Detalle de Mercado Libre y simulación de algunas funciones.",
     principal: ["TYPESCRIPT"],
     git: "https://github.com/AlejandroWogelman/mercadoLibre-copy",
-    link: "https://meli-chllenge.netlify.app/",
+    link: "https://meli-challeng.netlify.app/",
   },
   {
     name: "Blogr Landing",
@@ -45,7 +45,7 @@ const data = [
     text: "Proyecto trabajando en equipo para NO Country. Back-ends y Front-ends",
     principal: ["REDUX", "React-router", "Api"],
     git: "https://github.com/No-Country/c6-22",
-    link: "https://new-tecnostore.netlify.app/",
+    link: "https://tecno-store.vercel.app/",
   },
   {
     name: "Alkemy Challenge",
@@ -54,7 +54,7 @@ const data = [
     principal: ["REDUX", "ROUTER", "FORMIK", "API"],
     text: "Challenge de ingreso. Uso de Api y Redux",
     git: "https://github.com/AlejandroWogelman/Heros-TEAM-allkemy",
-    link: "https://super-equipo.netlify.app/",
+    link: "https://heros-m38t.onrender.com",
   },
 ];
 
